@@ -52,7 +52,9 @@ code .
 
 3. コンテナ内で再度VSCodeが開いたら、ターミナルを表示し、`bundle install`コマンドを入力してください。
 
-4. `rails s`コマンドを入力し、サーバーを立ち上げてください。
+4. ターミナル上で`rails db:migrate RAILS_ENV=development` コマンドを入力してください。
+
+4. `rails s`コマンドを入力してください。
 
 5. 別のターミナルを表示し、`APIURL=http://localhost:3000/api ./run-api-tests.sh`コマンドを実行してください。テストが全て成功すれば、課題1、3、4の実装ができていることが確認できます。
 
