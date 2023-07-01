@@ -54,9 +54,9 @@ code .
 
 4. ターミナル上で`rails db:migrate RAILS_ENV=development` コマンドを入力してください。
 
-4. `rails s`コマンドを入力してください。
+5. `rails s`コマンドを入力してください。
 
-5. 別のターミナルを表示し、`APIURL=http://localhost:3000/api ./run-api-tests.sh`コマンドを実行してください。テストが全て成功すれば、課題1、3、4の実装ができていることが確認できます。
+6. 別のターミナルを表示し、`APIURL=http://localhost:3000/api ./run-api-tests.sh`コマンドを実行してください。テストが全て成功すれば、課題1、3、4の実装ができていることが確認できます。
 
 6. ターミナル上で、`bundle exec rspec spec/requests/api/users_spec.rb`コマンドを実行してください。テストが成功すれば、課題2の実装ができていることが確認できます。
 
